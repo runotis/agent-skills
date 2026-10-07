@@ -1,0 +1,43 @@
+{
+  "name": "otis",
+  "version": "1.0.0",
+  "description": "Ask Otis how your product is used, and instrument your app with the Otis SDK. Includes the Otis MCP server connection and skills that analyze your codebase, add instrumentation, verify it, and report progress.",
+  "author": {
+    "name": "Otis",
+    "email": "support@runotis.com",
+    "url": "https://www.runotis.com"
+  },
+  "homepage": "https://www.runotis.com/docs/integrations/coding-agents",
+  "repository": "https://github.com/runotis/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "otis",
+    "analytics",
+    "product-analytics",
+    "ai",
+    "llm",
+    "observability",
+    "instrumentation",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Otis",
+    "shortDescription": "Product analytics for AI apps",
+    "longDescription": "Ask Otis how your product is used, and instrument your app with the Otis SDK. Includes the Otis MCP server connection and skills that analyze your codebase, add instrumentation, verify it, and report progress.",
+    "developerName": "Otis",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.runotis.com",
+    "defaultPrompt": [
+      "What are users struggling with this week?",
+      "Analyze this repo with Otis and recommend what to measure.",
+      "Check that my Otis instrumentation is sending data."
+    ],
+    "logo": "./assets/otis.svg"
+  }
+}

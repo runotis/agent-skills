@@ -1,0 +1,18 @@
+{
+  "name": "otis",
+  "owner": {
+    "name": "Otis",
+    "email": "support@runotis.com",
+    "url": "https://www.runotis.com"
+  },
+  "metadata": {
+    "description": "Otis skills and MCP server for coding agents."
+  },
+  "plugins": [
+    {
+      "name": "otis",
+      "source": "./",
+      "description": "Ask Otis how your product is used, and instrument your app with the Otis SDK. Includes the Otis MCP server connection and skills that analyze your codebase, add instrumentation, verify it, and report progress."
+    }
+  ]
+}

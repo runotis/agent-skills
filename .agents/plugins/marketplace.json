@@ -1,0 +1,20 @@
+{
+  "name": "otis",
+  "interface": {
+    "displayName": "Otis"
+  },
+  "plugins": [
+    {
+      "name": "otis",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
